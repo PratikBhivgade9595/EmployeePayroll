@@ -16,6 +16,7 @@
     letter-spacing: 0px;
     color: #82A70C;
     text-transform: capitalize;
+    
 }
 
 .pay-text {
@@ -31,6 +32,9 @@
 
 .header-text-align {
     margin-left: 240px;
+    display: flex;
+    margin-top: 25px;
+    gap: 5px;
 }
 
 .main {

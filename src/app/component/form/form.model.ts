@@ -7,5 +7,5 @@ export class formModel{
     day: string = '';
     month: string = '';
     year: string = '';
-        
+    note:  string = '';  
 }

@@ -53,6 +53,7 @@ export class FormComponent implements OnInit {
     this.formModelObj.salary = this.employeeForm.value.salary;
     this.formModelObj.month = this.employeeForm.value.month;
     this.formModelObj.year = this.employeeForm.value.year;
+    this.formModelObj.note = this.employeeForm.value.note;
 
     this.form.employeePost(this.formModelObj).subscribe((response) => {
       console.log(response);

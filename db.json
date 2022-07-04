@@ -1,28 +1,18 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    },
-    {
       "id": 2,
-      "name": "Rahul Veer",
-      "profileImg": "1",
+      "name": "Prajwal Bhivgade",
+      "profileImg": "../../../assets\\Ellipse -2.png",
       "gender": "Male",
-      "salary": "30000",
-      "day": "4",
-      "month": "March",
-      "year": "2002"
+      "salary": "90000",
+      "day": "12",
+      "month": "Feb",
+      "year": "2000",
+      "note": "great"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
+  "comments": [],
   "profile": {
     "name": "typicode"
   }

@@ -31,6 +31,9 @@
 
 .header-text-align {
     margin-left: 240px;
+    display: flex;
+    margin-top: 25px;
+    gap: 5px;
 }
 
 .main {
@@ -133,3 +136,13 @@ height: 22px;
 //background: #658292 0% 0% no-repeat padding-box;
 opacity: 1;
 }
+
+.img-but1 {
+    width: 18px;
+height: 22px;
+/* UI Properties */
+//background: #658292 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-left: 10px;
+}
+

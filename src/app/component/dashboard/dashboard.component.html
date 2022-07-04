@@ -3,7 +3,7 @@
     <div class="header">
         <div class="header-text-align">
             <div>
-                <img>
+                <img src="../../../assets\logo.png">
             </div>
             <div>
                 <span class="emp-text"><b>EMPLOYEE</b></span><br>
@@ -23,6 +23,7 @@
     <table class="table">
         <thead >
             <tr>
+                <th></th>
                 <th scope="col">Name</th>
                 <th scope="col">GENDER</th>
                 <th scope="col">DEPARTMENT</th>
@@ -33,14 +34,17 @@
         </thead>
         <tbody class="table-body" >
             <tr  *ngFor="let data of dataList">
+                <td>
+                    <img class="profile" src={{data.profileImg}} alt="">
+                </td>
                 <td>{{data.name}}</td>
                 <td>{{data.gender}}</td>
                 <td>{{data.dept}}</td>
-                <td>{{data.salary}}</td>
+                <td>Rs.{{data.salary}}</td>
                 <td>{{data.day}} {{data.month}} {{data.year}}</td>
                 <td>
-                    <img class="img-but" src="../../../assets\delete_FILL0_wght400_GRAD0_opsz48.svg">
-                    <img class="img-but" src="../../../assets\edit_FILL0_wght400_GRAD0_opsz48.svg">
+                    <img class="img-but" (click)="employeeDeleteData(data)" src="../../../assets\delete_FILL0_wght400_GRAD0_opsz48.svg">
+                    <img class="img-but1" (click)="openDialog(data)" src="../../../assets\edit_FILL0_wght400_GRAD0_opsz48.svg">
                 </td>
             </tr>
 

@@ -9,18 +9,22 @@ import {MatButtonModule} from '@angular/material/button';
 import {MatInputModule} from '@angular/material/input';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import {MatDialogModule} from '@angular/material/dialog';
+import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormComponent } from './component/form/form.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { UpdateComponent } from './component/update/update.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
-    DashboardComponent
+    DashboardComponent,
+    UpdateComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,9 @@ import { DashboardComponent } from './component/dashboard/dashboard.component';
     MatButtonModule,
     MatInputModule,
     ReactiveFormsModule,
-    HttpClientModule 
+    HttpClientModule,
+    MatDialogModule,
+    FormsModule 
 
   ],
   providers: [],
