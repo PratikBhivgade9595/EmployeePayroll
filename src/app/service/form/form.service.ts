@@ -32,4 +32,12 @@ export class FormService {
         return resource;
       }))
   }
+
+  employeeUpdate(data: any, id:number) {
+    console.log(data)
+    return this.http.put<any>("http://localhost:3000/posts/" +id, data)
+      .pipe(map((resource: any) => {
+        return resource;
+      }))
+  }
 }

@@ -1,15 +1,26 @@
 {
   "posts": [
     {
-      "id": 2,
-      "name": "Prajwal Bhivgade",
+      "id": 1,
+      "name": "Pratik Bhivgade",
       "profileImg": "../../../assets\\Ellipse -2.png",
       "gender": "Male",
       "salary": "90000",
-      "day": "12",
-      "month": "Feb",
+      "day": "18",
+      "month": "Jan",
       "year": "2000",
-      "note": "great"
+      "note": "good"
+    },
+    {
+      "id": 2,
+      "name": "Neha Singh",
+      "profileImg": "../../../assets\\Ellipse -3.png",
+      "gender": "Female",
+      "salary": "50000",
+      "day": "2",
+      "month": "April",
+      "year": "2001",
+      "note": "Great"
     }
   ],
   "comments": [],
