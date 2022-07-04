@@ -1,0 +1,186 @@
+.header {
+    //width: 1920px;
+    height: 106px;
+/* UI Properties */
+    background: #FFFFFF;
+    //opacity: 1;
+    border: 1px solid black;
+}
+
+.emp-text{
+    width: 127px;
+    height: 27px;
+    /* UI Properties */
+    //text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #82A70C;
+    text-transform: capitalize;
+}
+
+.pay-text {
+    width: 107px;
+    height: 27px;
+    /* UI Properties */
+    //text-align: left;
+    font: normal normal bold 22px/25px Montserrat;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+}
+
+.header-text-align {
+    margin-left: 240px;
+}
+
+.main {
+    background: #F7F7F7;
+    //opacity: 1;
+}
+
+.form-div {
+    box-align: center;
+    border: 1px solid black;
+    width: 800px;
+    height: 911px;
+    margin-left: 300px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+    margin-top: 27px;
+}
+
+.text-form {
+        width: 290px;
+    height: 37px;
+    /* UI Properties */
+    //text-align: left;
+    font: normal normal bold 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    text-transform: capitalize;
+    opacity: 1;
+    
+}
+
+.align-form {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+// .profile-radio-content{ 
+//     display: flex; flex-direction: row; 
+// } 
+
+// .profile-radio-content > label {
+//     display: flex; flex-direction: row; align-items: center; } 
+
+// .profile {
+//     width: 40px; border-radius: 50%; margin-left: 12px; 
+// } 
+
+.label {
+    font: normal normal normal 18px/24px Roboto;
+letter-spacing: 0px;
+color: #42515F;
+opacity: 1;
+}
+
+.name-input {
+   margin-left: 90px;
+    width: 450px;
+height: 50px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+//border: 1px solid #BDBDBD;
+border-radius: 3px;
+opacity: 1;
+}
+
+.profile-div {
+    margin-top: 40px;
+}
+
+.div {
+    margin-top: 40px;
+}
+
+.gender-div {
+    margin-top: 40px;
+}
+
+.radio-grp {
+    margin-left: 90px;
+}
+
+.example-margin {
+    margin-left: 20px;
+}
+
+.example-margin1 {
+    margin-left: 55px;
+}
+
+.salary-mat-select {
+    margin-left: 90px;
+}
+
+.select-date {
+    width: 130px;
+    margin-left: 55px;
+}
+
+.select-year {
+    width: 130px; 
+    margin-left: 30px;
+}
+
+.note-mat-box {
+    margin-left: 90px;
+    width: 450px;
+    //height: 300px;
+    //border: 1px solid black;
+}
+
+// .input {
+//     // width: 450px;
+//     // height: 100px;
+// }
+
+.cancel-btn {
+    width: 120px;
+    height: 45px;
+    /* UI Properties */
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+.submit-btn {
+    width: 120px;
+    height: 45px;
+    /* UI Properties */
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 200px;
+}
+
+.reset-btn {
+    width: 120px;
+    height: 45px;
+    /* UI Properties */
+    background: #E2E2E2 0% 0% no-repeat padding-box;
+    border: 1px solid #969696;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 30px;
+}
+
+.profile-select {
+    margin-left: 43px;
+}
